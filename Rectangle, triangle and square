@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	double l, w, rec, sq, tri;
+	cout << "To calculate the area of triangle, square and rectangle " << endl;
+	
+	cout << "Enter the width:" << endl;
+		cin >> w;
+		cout << "Enter the length" << endl;
+		cin >> l;
+
+		rec = l * w;
+		sq = l * l;
+		tri = l * w * 0.5;
+
+		cout << "The area of the rectangle is " << rec << endl;
+		cout << "The area of the square is " << sq << endl;
+		cout << "The area of the triangle " << tri << endl;
+		return 0;
+}
