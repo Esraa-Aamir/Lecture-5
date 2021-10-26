@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	float X, Y;
+	cout << "Enter the value of temperature in Fahrenheit: ";
+	cin >> X;
+	Y = (X - 32) * 0.5556;
+	cout << X << " Fahrenheit is " << Y << " in celsius." << endl;
+
+
+	return 0;
+		
+
+
+
+
+}
