@@ -1,0 +1,29 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+
+
+
+int main()
+{
+	float radius, area, circumfrence;
+
+	cout << "Enter the radius of the cirlce: ";
+	cin >> radius;
+
+	area = 3.14 * radius * radius;
+	circumfrence = 2 * 3.14 * radius;
+	
+	
+	cout << "The area of the circles is: " << area << endl;
+	cout << "The circumfrence of the circle is: " << circumfrence << endl;
+
+	return 0;
+
+
+
+
+
+
+
+}
